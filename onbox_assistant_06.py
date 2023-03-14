@@ -3,9 +3,6 @@
 # This library cli works in switches nexus only
 from cli import cli, clid
 from cli import structured_output_not_supported_error
-from datetime import datetime
-from os import mkdir
-
 
 """
 This is a script that will run "onbox" on a Nexus Switch with the goal
@@ -70,27 +67,11 @@ if __name__ == "__main__":
     output = {}
     # Loop over commands to run function and save output
     for label, command in commands.items():
-        pass
-        #output[label] = run_command(command, args.interface)
+        output[label] = run_command(command, args.interface)
     
-    #print(output)
+    print(output)
 
     # Create new folder for output
-    now = datetime.now()
-    report_timestamp = now.strftime("%Y-%m-%d-%H-%M-%S")
-
-    folder_names = "ts_report_{timestamp}_interface{interface_id}".format(
-        timestamp = report_timestamp,
-        interface_id = args.interface.replace("/","_")
-    )
-
-
-    print("Output will be stored in folder bootflash:{folder_name}/".format(folder_name=folder_names))
-    folder = '/bootflash/{folder_name}'.format(folder_name=folder_names)
-    #print(folder)
-    mkdir(folder)
-
-
     # Create a file for each command output
 
 
