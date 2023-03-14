@@ -70,7 +70,7 @@ if __name__ == "__main__":
     output = {}
     # Loop over commands to run function and save output
     for label, command in commands.items():
-        #pass
+        
         output[label] = run_command(command, args.interface)
     
     print(output)
@@ -97,15 +97,13 @@ if __name__ == "__main__":
         raw_output, json_output = results
 
         # write raw data file
-        if raw_output:
-            print("Writing file {folder_name}/{command}.txt".format(folder_name=folder, command = command))
-            with open ("{folder_name}/{command}.txt".format(folder_name=folder, command=command), "w") as f_raw:
-                f_raw.write(raw_output)
-
+        print("Writing file {folder_name}/{command}.txt".format(folder_name=folder_names, command = command))
+        with open ("{folder_name}/{command}.txt".format(folder_name=folder_names, command=command), "w") as f_raw:
+            f_raw.write(raw_output)
         # if json_output available, write json file
         if json_output:
-            print("Writing file {folder_name}/{command}.json".format(folder_name = folder, command = command))
-            with open ("{folder_name}/{command}.json".format(folder_name=folder, command=command), "w") as f_json:
+            print("Writing file {folder_name}/{command}.json".format(folder_name = folder_names, command = command))
+            with open ("{folder_name}/{command}.json".format(folder_name=folder_names, command=command), "w") as f_json:
                 f_json.write(json_output)
         
 
