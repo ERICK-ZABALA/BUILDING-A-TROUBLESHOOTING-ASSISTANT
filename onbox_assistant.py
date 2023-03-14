@@ -1,4 +1,8 @@
 #!/home/devnet/Documents/BUILDING-A-TROUBLESHOOTING-ASSISTANT/assistant/bin/python
+
+# This library cli works in switches nexus only
+from cli import cli, clid
+
 """
 This is a script that will run "onbox" on a Nexus Switch with the goal
 of running a series of show commands and collecting
@@ -22,10 +26,12 @@ def run_command(command, interface):
     Return as a tuple. (output_raw, output_json)
     """
 
-    output_raw = command.format(interface_id = interface)
-    output_json = command.format(interface_id=interface)
+    output_raw = cli(command.format(interface_id = interface))
+    output_json = clid(command.format(interface_id=interface))
 
     return (output_raw, output_json)
+
+
 #############################################################################
 
 
