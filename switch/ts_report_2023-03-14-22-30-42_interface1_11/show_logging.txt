@@ -1,0 +1,50 @@
+2023 Mar 14 22:21:49 dist-sw01 %ETHPORT-5-IF_DUPLEX: Interface port-channel1, operational duplex mode changed to Full
+2023 Mar 14 22:21:49 dist-sw01 %ETHPORT-5-IF_RX_FLOW_CONTROL: Interface port-channel1, operational Receive Flow Control state changed to off
+2023 Mar 14 22:21:49 dist-sw01 %ETHPORT-5-IF_TX_FLOW_CONTROL: Interface port-channel1, operational Transmit Flow Control state changed to off
+2023 Mar 14 22:21:49 dist-sw01 %ETHPORT-5-SPEED: Interface Ethernet1/3, operational speed changed to auto
+2023 Mar 14 22:21:49 dist-sw01 %ETHPORT-5-IF_DUPLEX: Interface Ethernet1/3, operational duplex mode changed to unknown
+2023 Mar 14 22:21:49 dist-sw01 %ETHPORT-5-IF_RX_FLOW_CONTROL: Interface Ethernet1/3, operational Receive Flow Control state changed to off
+2023 Mar 14 22:21:49 dist-sw01 %ETHPORT-5-IF_TX_FLOW_CONTROL: Interface Ethernet1/3, operational Transmit Flow Control state changed to off
+2023 Mar 14 22:21:49 dist-sw01 %ETHPORT-5-SPEED: Interface Ethernet1/4, operational speed changed to auto
+2023 Mar 14 22:21:49 dist-sw01 %ETHPORT-5-IF_DUPLEX: Interface Ethernet1/4, operational duplex mode changed to unknown
+2023 Mar 14 22:21:49 dist-sw01 %ETHPORT-5-IF_RX_FLOW_CONTROL: Interface Ethernet1/4, operational Receive Flow Control state changed to off
+2023 Mar 14 22:21:49 dist-sw01 %ETHPORT-5-IF_TX_FLOW_CONTROL: Interface Ethernet1/4, operational Transmit Flow Control state changed to off
+2023 Mar 14 22:21:49 dist-sw01 %ETHPORT-5-SPEED: Interface Ethernet1/11, operational speed changed to auto
+2023 Mar 14 22:21:49 dist-sw01 %ETHPORT-5-IF_DUPLEX: Interface Ethernet1/11, operational duplex mode changed to unknown
+2023 Mar 14 22:21:49 dist-sw01 %ETHPORT-5-IF_RX_FLOW_CONTROL: Interface Ethernet1/11, operational Receive Flow Control state changed to off
+2023 Mar 14 22:21:49 dist-sw01 %ETHPORT-5-IF_TX_FLOW_CONTROL: Interface Ethernet1/11, operational Transmit Flow Control state changed to off
+2023 Mar 14 22:21:49 dist-sw01 %ETHPORT-5-IF_UP: Interface Ethernet1/3 is up in Layer3
+2023 Mar 14 22:21:49 dist-sw01 %ETHPORT-5-IF_UP: Interface Ethernet1/4 is up in Layer3
+2023 Mar 14 22:21:49 dist-sw01 %ETHPORT-5-IF_UP: Interface Ethernet1/11 is up in mode access
+2023 Mar 14 22:21:49 dist-sw01 %ETHPORT-5-SPEED: Interface Ethernet1/11, operational speed changed to auto
+2023 Mar 14 22:21:50 dist-sw01 %ASCII-CFG-2-CONF_CONTROL: System ready
+2023 Mar 14 22:21:53 dist-sw01 %ETH_PORT_CHANNEL-5-PORT_UP: port-channel1: Ethernet1/2 is up
+2023 Mar 14 22:21:53 dist-sw01 %ETH_PORT_CHANNEL-5-PORT_UP: port-channel1: Ethernet1/1 is up
+2023 Mar 14 22:21:54 dist-sw01 %ETH_PORT_CHANNEL-5-FOP_CHANGED: port-channel1: first operational port changed from none to Ethernet1/2
+2023 Mar 14 22:21:54 dist-sw01 %ETHPORT-5-IF_BANDWIDTH_CHANGE: Interface port-channel1,bandwidth changed to 1000000 Kbit
+2023 Mar 14 22:21:54 dist-sw01 %ETHPORT-5-IF_UP: Interface Ethernet1/2 is up in mode trunk
+2023 Mar 14 22:21:54 dist-sw01 %ETHPORT-3-IF_ERROR_VLANS_SUSPENDED: VLANs 1,101-105 on Interface port-channel1 are being suspended. (Reason: vPC peer is not reachable over cfs)
+2023 Mar 14 22:21:54 dist-sw01 %ETHPORT-5-IF_UP: Interface port-channel1 is up in mode trunk
+2023 Mar 14 22:21:56 dist-sw01 %ETH_PORT_CHANNEL-5-PORT_DOWN: port-channel1: Ethernet1/2 is down
+2023 Mar 14 22:21:56 dist-sw01 %ETH_PORT_CHANNEL-5-FOP_CHANGED: port-channel1: first operational port changed from Ethernet1/2 to Ethernet1/1
+2023 Mar 14 22:21:56 dist-sw01 %ETHPORT-5-IF_BANDWIDTH_CHANGE: Interface port-channel1,bandwidth changed to 100000 Kbit
+2023 Mar 14 22:21:56 dist-sw01 %ETHPORT-5-IF_DOWN_INITIALIZING: Interface Ethernet1/2 is down (Initializing)
+2023 Mar 14 22:21:56 dist-sw01 %ETH_PORT_CHANNEL-5-FOP_CHANGED: port-channel1: first operational port changed from none to Ethernet1/1
+2023 Mar 14 22:21:56 dist-sw01 %ETHPORT-5-IF_BANDWIDTH_CHANGE: Interface port-channel1,bandwidth changed to 1000000 Kbit
+2023 Mar 14 22:21:56 dist-sw01 %ETHPORT-5-IF_UP: Interface Ethernet1/1 is up in mode trunk
+2023 Mar 14 22:22:04 dist-sw01 %ETHPORT-3-IF_ERROR_VLANS_REMOVED: VLANs 1,101-105 on Interface port-channel1 are removed from suspended state.
+2023 Mar 14 22:22:04 dist-sw01 last message repeated 1 time
+2023 Mar 14 22:22:04 dist-sw01 %ETH_PORT_CHANNEL-5-PORT_UP: port-channel1: Ethernet1/2 is up
+2023 Mar 14 22:22:04 dist-sw01 %ETHPORT-5-IF_BANDWIDTH_CHANGE: Interface port-channel1,bandwidth changed to 2000000 Kbit
+2023 Mar 14 22:22:04 dist-sw01 %ETHPORT-5-IF_UP: Interface Ethernet1/2 is up in mode trunk
+2023 Mar 14 22:22:06 dist-sw01 %VMAN-2-ACTIVATION_STATE: Successfully activated virtual service 'guestshell+'  
+2023 Mar 14 22:22:06 dist-sw01 %VMAN-2-GUESTSHELL_ENABLED: The guest shell has been enabled. The command 'guestshell' may be used to access it, 'guestshell destroy' to remove it.
+2023 Mar 14 22:22:09 dist-sw01 %VMAN-5-VIRT_INST_NOTICE: VIRTUAL SERVICE guestshell+ LOG: ^M
+2023 Mar 14 22:22:09 dist-sw01 %VMAN-5-VIRT_INST_NOTICE: VIRTUAL SERVICE guestshell+ LOG: CentOS Linux 7 (Core)
+2023 Mar 14 22:22:09 dist-sw01 %VMAN-5-VIRT_INST_NOTICE: VIRTUAL SERVICE guestshell+ LOG: Kernel 4.1.21-WR8.0.0.25-standard on an x86_64
+2023 Mar 14 22:22:09 dist-sw01 %VMAN-5-VIRT_INST_NOTICE: VIRTUAL SERVICE guestshell+ LOG: 
+2023 Mar 14 22:29:06 dist-sw01 %AUTHPRIV-3-SYSTEM_MSG: pam_aaa:Authentication failed from 192.168.254.11 - login
+2023 Mar 14 22:30:33 dist-sw01 %ETHPORT-5-IF_DOWN_CFG_CHANGE: Interface Ethernet1/11 is down(Config change)
+2023 Mar 14 22:30:33 dist-sw01 %ETHPORT-5-IF_DOWN_ADMIN_DOWN: Interface Ethernet1/11 is down (Administratively down)
+2023 Mar 14 22:30:34 dist-sw01 last message repeated 1 time
+2023 Mar 14 22:30:34 dist-sw01 %EEM_ACTION-5-NOTIF: SAW INTERFACE E1/11 GO DOWN 

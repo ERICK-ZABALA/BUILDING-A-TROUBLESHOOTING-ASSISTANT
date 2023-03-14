@@ -1,0 +1,1159 @@
+Showing output for single interface: Eth1/11
+pcm]
+  FSM:<Ethernet1/11> Transition at 69030 usecs after Tue Mar 14 21:56:02 2023
+    Previous state: [PCM_ETH_PORT_ST_INIT_DOWN]
+    Triggered event: [PCM_PORT_EV_IF_CREATE]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+ethpm]
+  FSM:<Ethernet1/11> Transition at 948802 usecs after Tue Mar 14 21:56:04 2023
+    Previous state: [ETH_PORT_FSM_ST_NOT_INIT]
+    Triggered event: [ETH_PORT_FSM_EV_MODULE_INIT_DONE]
+    Next state: [ETH_PORT_FSM_ST_INIT_EVAL]
+
+
+ethpm]
+  FSM:<Ethernet1/11> Transition at 948868 usecs after Tue Mar 14 21:56:04 2023
+    Previous state: [ETH_PORT_FSM_ST_INIT_EVAL]
+    Triggered event: [ETH_PORT_FSM_EV_IE_PORT_INIT]
+    Next state: [ETH_PORT_FSM_ST_SPAN_EVAL]
+
+
+ethpm]
+  FSM:<Ethernet1/11> Transition at 948873 usecs after Tue Mar 14 21:56:04 2023
+    Previous state: [ETH_PORT_FSM_ST_SPAN_EVAL]
+    Triggered event: [ETH_PORT_FSM_EV_NON_SPAN_DEST]
+    Next state: [ETH_PORT_FSM_ST_WAIT_PRE_CFG]
+
+
+ethpm]
+  Event:ESQ_START length:38, at 948892 usecs after Tue Mar 14 21:56:04 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 948948 usecs after Tue Mar 14 21:56:04 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    Seq:determine steps to skip
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 948951 usecs after Tue Mar 14 21:56:04 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    Seq:check for issu credits
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 948958 usecs after Tue Mar 14 21:56:04 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_OHMS(1011), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 948976 usecs after Tue Mar 14 21:56:04 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_FCOE(473), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 948984 usecs after Tue Mar 14 21:56:04 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_CTS(400), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 948991 usecs after Tue Mar 14 21:56:04 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_DOT1X(208), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 948997 usecs after Tue Mar 14 21:56:04 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PVLAN(180), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 949063 usecs after Tue Mar 14 21:56:04 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_VLAN_MGR(167), Opc:MTS_OPC_VLAN_MGR_GET_PORT_MEMBERSHIP_2(23617)
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 972852 usecs after Tue Mar 14 21:56:04 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_VLAN_MGR(167), Opc:MTS_OPC_VLAN_MGR_GET_PORT_MEMBERSHIP_2(23617)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 972912 usecs after Tue Mar 14 21:56:04 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ELTM(192), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+    RRtoken:0x00007998
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 63121 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_ELTM(192), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+    RRtoken:0x00007D51
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 63136 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ETH_SPAN(174), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 63150 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ETH_PORT_SEC(191), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 63162 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ACLMGR(351), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+    RRtoken:0x00007D5A
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 365859 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_ACLMGR(351), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+    RRtoken:0x0000819B
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 365863 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_QOS_MANAGER(59), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 366026 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_IPQOS_MGR(377), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+    RRtoken:0x00008402
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 385488 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_IPQOS_MGR(377), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+    RRtoken:0x00008561
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 385501 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_NVE(1304), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 387083 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_SPM(487), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+    RRtoken:0x00008566
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 411172 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_SPM(487), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+    RRtoken:0x00008652
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 411200 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PLCMGR(1296), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+    RRtoken:0x00008658
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 424115 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PLCMGR(1296), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+    RRtoken:0x000086C7
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 424170 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_RPM_CTRL(348), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+    RRtoken:0x000086E4
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 429687 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_RPM_CTRL(348), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+    RRtoken:0x0000872F
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 429698 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ASSOC_MGR(714), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 429700 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    Seq:check if port is eventually going to be down
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 429737 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    Seq:Pacer Check
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 429740 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    Seq:check if port is eventually going to be down
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 429860 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_ETHPM_LCP_SET_PORT_CFG(61443)
+    RRtoken:0x0000873A
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 579050 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_ETHPM_LCP_SET_PORT_CFG(61443)
+    RRtoken:0x00008976
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 579069 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_SFLOW(887), Opc:MTS_OPC_ETHPM_PORT_PRE_CFG(61441)
+
+
+ethpm]
+  FSM:<Ethernet1/11> Transition at 579116 usecs after Tue Mar 14 21:56:05 2023
+    Previous state: [ETH_PORT_FSM_ST_WAIT_PRE_CFG]
+    Triggered event: [ETH_PORT_FSM_EV_PRE_CFG_DONE]
+    Next state: [ETH_PORT_FSM_ST_LINK_INIT]
+
+
+ethpm]
+  FSM:<Ethernet1/11> Transition at 581246 usecs after Tue Mar 14 21:56:05 2023
+    Previous state: [ETH_PORT_FSM_ST_LINK_INIT]
+    Triggered event: [ETH_PORT_FSM_EV_LINK_UP]
+    Next state: [ETH_PORT_FSM_ST_WAIT_BRINGUP]
+
+
+ethpm]
+  Event:ESQ_START length:38, at 581437 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 581451 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    Seq:determine steps to skip
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 581454 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    Seq:check for issu
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 581477 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_L2FM(221), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 581588 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_ETHPM_LCP_SET_PORT_CFG(61443)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 581610 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_SET_MULT_CBL_VLAN_PORT_STATE(69641)
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 594720 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_SET_MULT_CBL_VLAN_PORT_STATE(69641)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 600285 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_REGISTRY(0), Opc:MTS_OPC_IM_PHY_LINK_STATE_CHANGE(62470)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 600326 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_LLDP(456), Opc:MTS_OPC_DCX_CONFIG_FEATURE(96271)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 600338 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_CTS(400), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 600347 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_DOT1X(208), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 601401 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_LLDP(456), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 601419 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_FCOE(473), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 601422 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_ETHPM_LCP_SET_PORT_CFG(61443)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 601427 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_VLAN_MGR(167), Opc:MTS_OPC_VLAN_MGR_GET_PORT_TRUNKING_MEMBERSHIP(23562)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 601480 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_ALLOC_LTL(69635)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 601491 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_KIM(232), Opc:MTS_OPC_KIM_VPL_INFO_UPDATE(240645)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 601545 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ETH_PORT_CHANNEL_MGR(378), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+    RRtoken:0x00008A30
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 613833 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_ETH_PORT_CHANNEL_MGR(378), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+    RRtoken:0x00008A30
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 613843 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ASSOC_MGR(714), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 613850 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PVLAN(180), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 613856 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ETH_PORT_SEC(191), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 615230 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_IPQOS_MGR(377), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+    RRtoken:0x00008A7E
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 621397 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_IPQOS_MGR(377), Opc:MTS_OPC_ETHPM_PORT_BRINGUP(61442)
+    RRtoken:0x00008A7E
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 621452 usecs after Tue Mar 14 21:56:05 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 159718 usecs after Tue Mar 14 21:56:06 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_LC_PORT_CLIENT_CONFIG(8186)
+
+
+ethpm]
+  FSM:<Ethernet1/11> Transition at 159765 usecs after Tue Mar 14 21:56:06 2023
+    Previous state: [ETH_PORT_FSM_ST_WAIT_BRINGUP]
+    Triggered event: [ETH_PORT_FSM_EV_BRINGUP_DONE]
+    Next state: [ETH_PORT_FSM_ST_WAIT_PRE_LOGICAL_UP]
+
+
+ethpm]
+  Event:ESQ_START length:38, at 159804 usecs after Tue Mar 14 21:56:06 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 159849 usecs after Tue Mar 14 21:56:06 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    Seq:determine steps to skip
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 159876 usecs after Tue Mar 14 21:56:06 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_FLEXLINK(498), Opc:MTS_OPC_ETHPM_PORT_CTRL_UP(61484)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 159890 usecs after Tue Mar 14 21:56:06 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    Seq:Sending state up notif to shared vdc
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 159956 usecs after Tue Mar 14 21:56:06 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_ALLOC_LTL(69635)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 159959 usecs after Tue Mar 14 21:56:06 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_MCECM(450), Opc:MTS_OPC_ETHPM_MCECM_ORPHAN_SUSPEND(61516)
+
+
+ethpm]
+  FSM:<Ethernet1/11> Transition at 159986 usecs after Tue Mar 14 21:56:06 2023
+    Previous state: [ETH_PORT_FSM_ST_WAIT_PRE_LOGICAL_UP]
+    Triggered event: [ETH_PORT_FSM_EV_PRE_LOGICAL_DONE]
+    Next state: [ETH_PORT_FSM_ST_WAIT_LOGICAL_UP]
+
+
+ethpm]
+  FSM:<Ethernet1/11> Transition at 159993 usecs after Tue Mar 14 21:56:06 2023
+    Previous state: [ETH_PORT_FSM_ST_WAIT_LOGICAL_UP]
+    Triggered event: [ETH_PORT_FSM_EV_ACCESS_UP]
+    Next state: [ETH_PORT_FSM_ST_L2_UP]
+
+
+spt]
+  Event:(null), length:164, at 160773 usecs after Tue Mar 14 21:56:06 2023
+stp_common_im_protocol_state_change_handler(): IM L2 Port Proto UP Notif : port_mode 0x80000, speed 1000, duplex 2, primary 101, port Eth1/11, (UP) vlans 101,
+
+
+ethpm]
+  FSM:<Ethernet1/11> Transition at 162525 usecs after Tue Mar 14 21:56:06 2023
+    Previous state: [ETH_PORT_FSM_ST_L2_UP]
+    Triggered event: [ETH_PORT_FSM_EV_LINK_UP]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+spt]
+  Event:(null), length:161, at 180224 usecs after Tue Mar 14 21:56:06 2023
+stp_common_im_protocol_state_change_handler(): IM L2 Port Proto UP Notif : port_mode 0x80000, speed 0, duplex 2, primary 101, port Eth1/11, (UP) vlans 101,
+
+
+ethpm]
+  FSM:<Ethernet1/11> Transition at 842224 usecs after Tue Mar 14 22:14:00 2023
+    Previous state: [ETH_PORT_FSM_ST_L2_UP]
+    Triggered event: [ETH_PORT_FSM_EV_ADMIN_CFG_EVAL]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+ethpm]
+  Event:ESQ_START length:38, at 842242 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 842247 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ELTM(192), Opc:MTS_OPC_ELTM_MTU(72715)
+
+
+ethpm]
+  FSM:<Ethernet1/11> Transition at 842266 usecs after Tue Mar 14 22:14:00 2023
+    Previous state: [ETH_PORT_FSM_ST_L2_UP]
+    Triggered event: [ETH_PORT_FSM_EV_ADMIN_CFG_EVAL_RES_DONE]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+ethpm]
+  FSM:<Ethernet1/11> Transition at 842619 usecs after Tue Mar 14 22:14:00 2023
+    Previous state: [ETH_PORT_FSM_ST_L2_UP]
+    Triggered event: [ETH_PORT_FSM_EV_CFG_FLAP]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+ethpm]
+  Event:ESQ_START length:38, at 842643 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 842652 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    Seq:Graceful shut steps to skip
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 842656 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    Seq: create graceful_down req payload
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 842659 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_REGISTRY(0), Opc:MTS_OPC_IM_L3_IF_GRACEFUL_DOWN(62520)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 842759 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 842763 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ETH_SPAN(174), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 844944 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    Seq:send state change
+
+
+ethpm]
+  FSM:<Ethernet1/11> Transition at 844978 usecs after Tue Mar 14 22:14:00 2023
+    Previous state: [ETH_PORT_FSM_ST_L2_UP]
+    Triggered event: [ETH_PORT_FSM_EV_LOGICAL_DOWN]
+    Next state: [ETH_PORT_FSM_ST_WAIT_LOGICAL_DOWN]
+
+
+ethpm]
+  Event:ESQ_START length:38, at 845169 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 845174 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_SET_MULT_CBL_VLAN_PORT_STATE(69641)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 845189 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_STP(171), Opc:MTS_OPC_ETHPM_PORT_LOGICAL_CLEANUP(61447)
+    RRtoken:0x0000C510
+
+
+spt]
+  Event:(null), length:158, at 845450 usecs after Tue Mar 14 22:14:00 2023
+stp_common_im_protocol_state_change_handler(): IM L2 Port Proto DOWN Notif : port_mode 0x80000, speed 0, duplex 2, primary 101, port Eth1/11, vlans 101,
+
+
+spt]
+  Event:(null), length:101, at 845777 usecs after Tue Mar 14 22:14:00 2023
+stp_port_logical_cleanup_delete_vlan_ports(1716): EthPM logical down for port Eth1/11 vlans 101
+
+
+spt]
+  Event:(null), length:112, at 899322 usecs after Tue Mar 14 22:14:00 2023
+stp_ethpm_complete_port_logical_cleanup(): EthPM logical cleanup for port Eth1/11 complete with status 0x0
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 899566 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_STP(171), Opc:MTS_OPC_ETHPM_PORT_LOGICAL_CLEANUP(61447)
+    RRtoken:0x0000C510
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 899588 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_FLEXLINK(498), Opc:MTS_OPC_ETHPM_PORT_LOGICAL_CLEANUP(61447)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 899641 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_RPM_CTRL(348), Opc:MTS_OPC_ETHPM_PORT_LOGICAL_CLEANUP(61447)
+    RRtoken:0x0000C521
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 900159 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_RPM_CTRL(348), Opc:MTS_OPC_ETHPM_PORT_LOGICAL_CLEANUP(61447)
+    RRtoken:0x0000C521
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 900177 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PVLAN(180), Opc:MTS_OPC_ETHPM_PORT_LOGICAL_CLEANUP(61447)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 900194 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_SPM(487), Opc:MTS_OPC_ETHPM_PORT_LOGICAL_CLEANUP(61447)
+    RRtoken:0x0000C524
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 900841 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_SPM(487), Opc:MTS_OPC_ETHPM_PORT_LOGICAL_CLEANUP(61447)
+    RRtoken:0x0000C524
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 900924 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_L2FM(221), Opc:MTS_OPC_ETHPM_PORT_LOGICAL_CLEANUP(61447)
+    RRtoken:0x0000C526
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 903599 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_L2FM(221), Opc:MTS_OPC_ETHPM_PORT_LOGICAL_CLEANUP(61447)
+    RRtoken:0x0000C526
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 903619 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ETH_PORT_SEC(191), Opc:MTS_OPC_ETHPM_PORT_LOGICAL_CLEANUP(61447)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 903686 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_MCECM(450), Opc:MTS_OPC_ETHPM_PORT_LOGICAL_CLEANUP(61447)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 903724 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_FIPSM(477), Opc:MTS_OPC_ETHPM_PORT_LOGICAL_CLEANUP(61447)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 903735 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ASSOC_MGR(714), Opc:MTS_OPC_MTS_DRV_INFO_GET(10)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 903741 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    Seq:Update vlan membership ref count
+
+
+ethpm]
+  FSM:<Ethernet1/11> Transition at 903794 usecs after Tue Mar 14 22:14:00 2023
+    Previous state: [ETH_PORT_FSM_ST_WAIT_LOGICAL_DOWN]
+    Triggered event: [ETH_PORT_FSM_EV_LOGICAL_DOWN_DONE]
+    Next state: [ETH_PORT_FSM_ST_WAIT_PROTOCOL_DOWN]
+
+
+ethpm]
+  Event:ESQ_START length:38, at 903814 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 903829 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    Seq:determine steps to skip
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 903857 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ETH_PORT_CHANNEL_MGR(378), Opc:MTS_OPC_ETHPM_PORT_CLEANUP(61444)
+    RRtoken:0x0000C52D
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 904117 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_ETH_PORT_CHANNEL_MGR(378), Opc:MTS_OPC_ETHPM_PORT_CLEANUP(61444)
+    RRtoken:0x0000C52D
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 904122 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_OSPF(320), Opc:MTS_OPC_ETHPM_PORT_CLEANUP(61444)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 904140 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PVLAN(180), Opc:MTS_OPC_ETHPM_PORT_CLEANUP(61444)
+
+
+ethpm]
+  FSM:<Ethernet1/11> Transition at 904174 usecs after Tue Mar 14 22:14:00 2023
+    Previous state: [ETH_PORT_FSM_ST_WAIT_PROTOCOL_DOWN]
+    Triggered event: [ETH_PORT_FSM_EV_PROTO_DOWN_DONE]
+    Next state: [ETH_PORT_FSM_ST_PROTOCOL_DOWN]
+
+
+ethpm]
+  FSM:<Ethernet1/11> Transition at 904223 usecs after Tue Mar 14 22:14:00 2023
+    Previous state: [ETH_PORT_FSM_ST_PROTOCOL_DOWN]
+    Triggered event: [ETH_PORT_FSM_EV_PHY_DOWN]
+    Next state: [ETH_PORT_FSM_ST_WAIT_PHYSICAL_DOWN]
+
+
+ethpm]
+  Event:ESQ_START length:38, at 909573 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 909614 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    Seq:determine steps to skip
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 909632 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    Seq:Send state change for shared intf if not sent in log down
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 912056 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_REGISTRY(0), Opc:MTS_OPC_IM_PHY_LINK_STATE_CHANGE(62470)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 912155 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+    RRtoken:0x0000C535
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 913960 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+    RRtoken:0x0000C535
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 913967 usecs after Tue Mar 14 22:14:00 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    Seq:Wait for debounce logic
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 14236 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    Seq:Wait for debounce logic
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 14339 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_KIM(232), Opc:MTS_OPC_KIM_VPL_INFO_UPDATE(240645)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 14402 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_ALLOC_LTL(69635)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 14503 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_SET_MULT_CBL_VLAN_PORT_STATE(69641)
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 15698 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PIXM_LOCAL(153), Opc:MTS_OPC_PIXM_SET_MULT_CBL_VLAN_PORT_STATE(69641)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 15745 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_FCOE(473), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 15757 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_DOT1X(208), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 15768 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_CTS(400), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 15840 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_RPM_CTRL(348), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+    RRtoken:0x0000C548
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 16369 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_RPM_CTRL(348), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+    RRtoken:0x0000C548
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 16427 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ACLMGR(351), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+    RRtoken:0x0000C54A
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 17364 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_ACLMGR(351), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+    RRtoken:0x0000C54A
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 17432 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_SPM(487), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+    RRtoken:0x0000C54C
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 17784 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_SPM(487), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+    RRtoken:0x0000C54C
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 17804 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ETH_PORT_SEC(191), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 17812 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_FLEXLINK(498), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 17825 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_L2FM(221), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 17877 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ELTM(192), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+    RRtoken:0x0000C550
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 22842 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_ELTM(192), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+    RRtoken:0x0000C550
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 22874 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ETH_SPAN(174), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 22889 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ASSOC_MGR(714), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 22898 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_SFLOW(887), Opc:MTS_OPC_ETHPM_PORT_PHY_CLEANUP(61446)
+
+
+ethpm]
+  FSM:<Ethernet1/11> Transition at 22935 usecs after Tue Mar 14 22:14:01 2023
+    Previous state: [ETH_PORT_FSM_ST_WAIT_PHYSICAL_DOWN]
+    Triggered event: [ETH_PORT_FSM_EV_PHY_DOWN_DONE]
+    Next state: [ETH_PORT_FSM_ST_WAIT_APPLY_CONFIG]
+
+
+ethpm]
+  Event:ESQ_START length:38, at 22965 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 22973 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_REGISTRY(0), Opc:MTS_OPC_SYNC_MESSAGE(0)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 22988 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_DIAGCLIENT(366), Opc:MTS_OPC_GOLD_PP_TEST_STOP(59414)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 22991 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_LC_PORT_FCOT_SPROM_READ(8194)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 25049 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    Seq:Sending MTS_OPC_LC_PORT_CLIENT_CFG and/or PARAM_CHANGE opcode
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 25053 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ELTM(192), Opc:MTS_OPC_ELTM_INTF_FEATURE_REQ_RESP(72748)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 25063 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_VLAN_MGR(167), Opc:MTS_OPC_VLAN_MGR_GET_PORT_TRUNKING_MEMBERSHIP(23562)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 25074 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_DIAGCLIENT(366), Opc:MTS_OPC_GOLD_PP_TEST_RESUME(59417)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 25106 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_VLAN_MGR(167), Opc:MTS_OPC_VLAN_MGR_GET_PORT_MEMBERSHIP_2(23617)
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 32955 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_VLAN_MGR(167), Opc:MTS_OPC_VLAN_MGR_GET_PORT_MEMBERSHIP_2(23617)
+
+
+ethpm]
+  FSM:<Ethernet1/11> Transition at 33019 usecs after Tue Mar 14 22:14:01 2023
+    Previous state: [ETH_PORT_FSM_ST_WAIT_APPLY_CONFIG]
+    Triggered event: [ETH_PORT_FSM_EV_CFG_DONE]
+    Next state: [ETH_PORT_FSM_ST_INIT_EVAL]
+
+
+ethpm]
+  FSM:<Ethernet1/11> Transition at 33051 usecs after Tue Mar 14 22:14:01 2023
+    Previous state: [ETH_PORT_FSM_ST_INIT_EVAL]
+    Triggered event: [ETH_PORT_FSM_EV_IE_ADMIN_DOWN]
+    Next state: [ETH_PORT_FSM_ST_DOWN]
+
+
+ethpm]
+  FSM:<Ethernet1/11> Transition at 33943 usecs after Tue Mar 14 22:14:01 2023
+    Previous state: [ETH_PORT_FSM_ST_DOWN]
+    Triggered event: [ETH_PORT_FSM_EV_CONFIGURE_PERM_EVAL]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+ethpm]
+  Event:ESQ_START length:38, at 33954 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 34254 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CHANNEL_MGR(34), Opc:MTS_OPC_PCM_CONFIGURE_PERM(644)
+    RRtoken:0x0000C566
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 34318 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_PORT_CHANNEL_MGR(34), Opc:MTS_OPC_PCM_CONFIGURE_PERM(644)
+    RRtoken:0x0000C566
+
+
+ethpm]
+  FSM:<Ethernet1/11> Transition at 34340 usecs after Tue Mar 14 22:14:01 2023
+    Previous state: [ETH_PORT_FSM_ST_DOWN]
+    Triggered event: [ETH_PORT_FSM_EV_ADMIN_CFG_EVAL]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+ethpm]
+  Event:ESQ_START length:38, at 34347 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 34351 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ELTM(192), Opc:MTS_OPC_ELTM_MTU(72715)
+
+
+ethpm]
+  FSM:<Ethernet1/11> Transition at 34360 usecs after Tue Mar 14 22:14:01 2023
+    Previous state: [ETH_PORT_FSM_ST_DOWN]
+    Triggered event: [ETH_PORT_FSM_EV_ADMIN_CFG_EVAL_RES_DONE]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+ethpm]
+  FSM:<Ethernet1/11> Transition at 34590 usecs after Tue Mar 14 22:14:01 2023
+    Previous state: [ETH_PORT_FSM_ST_DOWN]
+    Triggered event: [ETH_PORT_FSM_EV_CFG_CHANGE_NO_FLAP]
+    Next state: [FSM_ST_NO_CHANGE]
+
+
+ethpm]
+  Event:ESQ_START length:38, at 34599 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    Seq Type:SERIAL
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 34604 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_REGISTRY(0), Opc:MTS_OPC_SYNC_MESSAGE(0)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 34732 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_DIAGCLIENT(366), Opc:MTS_OPC_GOLD_PP_TEST_STOP(59414)
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 35208 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_DIAGCLIENT(366), Opc:MTS_OPC_GOLD_PP_TEST_STOP(59414)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 35213 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_PORT_CLIENT(181), Opc:MTS_OPC_LC_PORT_FCOT_SPROM_READ(8194)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 38007 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    Seq:Sending MTS_OPC_LC_PORT_CLIENT_CFG and/or PARAM_CHANGE opcode
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 38768 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    Seq:Sending MTS_OPC_LC_PORT_CLIENT_CFG and/or PARAM_CHANGE opcode
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 38774 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_ELTM(192), Opc:MTS_OPC_ELTM_INTF_FEATURE_REQ_RESP(72748)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 38778 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_VLAN_MGR(167), Opc:MTS_OPC_VLAN_MGR_GET_PORT_TRUNKING_MEMBERSHIP(23562)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 38799 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_DIAGCLIENT(366), Opc:MTS_OPC_GOLD_PP_TEST_RESUME(59417)
+
+
+ethpm]
+  Event:ESQ_REQ length:38, at 38837 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_TX] Dst:MTS_SAP_VLAN_MGR(167), Opc:MTS_OPC_VLAN_MGR_GET_PORT_MEMBERSHIP_2(23617)
+
+
+ethpm]
+  Event:ESQ_RSP length:38, at 40245 usecs after Tue Mar 14 22:14:01 2023
+    Instance:0x1A001400, Seq Id:0x1, Ret:SUCCESS
+    [E_MTS_RX] Src:MTS_SAP_VLAN_MGR(167), Opc:MTS_OPC_VLAN_MGR_GET_PORT_MEMBERSHIP_2(23617)
+
+
+ethpm]
+  FSM:<Ethernet1/11> Transition at 40287 usecs after Tue Mar 14 22:14:01 2023
+    Previous state: [ETH_PORT_FSM_ST_DOWN]
+    Triggered event: [ETH_PORT_FSM_EV_CFG_DONE]
+    Next state: [FSM_ST_NO_CHANGE]
+
+

@@ -1,0 +1,50 @@
+2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-IF_DOWN_ADMIN_DOWN: Interface Ethernet1/9 is down (Administratively down)
+2023 Mar 14 23:14:56 dist-sw01 last message repeated 1 time
+2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-IF_DOWN_ADMIN_DOWN: Interface Ethernet1/10 is down (Administratively down)
+2023 Mar 14 23:14:56 dist-sw01 last message repeated 1 time
+2023 Mar 14 23:14:56 dist-sw01 %MODULE-5-MOD_OK: Module 1 is online (Serial number: 9ORBHMVBPDB)
+2023 Mar 14 23:14:56 dist-sw01 %PLATFORM-5-MOD_STATUS: LC sub Module 1 current-status is MOD_STATUS_ONLINE/OK
+2023 Mar 14 23:14:56 dist-sw01 %ACLQOS-SLOT1-2-ACLQOS_FAILED: ACLQOS failure: TCAM region is not configured for feature QoS class IPv4 direction ingress. Please configure TCAM region Ingress COPP [copp] and retry the command. 
+2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-SPEED: Interface Ethernet1/1, operational speed changed to auto
+2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-IF_DUPLEX: Interface Ethernet1/1, operational duplex mode changed to unknown
+2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-IF_RX_FLOW_CONTROL: Interface Ethernet1/1, operational Receive Flow Control state changed to off
+2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-IF_TX_FLOW_CONTROL: Interface Ethernet1/1, operational Transmit Flow Control state changed to off
+2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-SPEED: Interface Ethernet1/2, operational speed changed to auto
+2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-IF_DUPLEX: Interface Ethernet1/2, operational duplex mode changed to unknown
+2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-IF_RX_FLOW_CONTROL: Interface Ethernet1/2, operational Receive Flow Control state changed to off
+2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-IF_TX_FLOW_CONTROL: Interface Ethernet1/2, operational Transmit Flow Control state changed to off
+2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-SPEED: Interface port-channel1, operational speed changed to 1 Gbps
+2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-IF_DUPLEX: Interface port-channel1, operational duplex mode changed to Full
+2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-IF_RX_FLOW_CONTROL: Interface port-channel1, operational Receive Flow Control state changed to off
+2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-IF_TX_FLOW_CONTROL: Interface port-channel1, operational Transmit Flow Control state changed to off
+2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-SPEED: Interface Ethernet1/3, operational speed changed to auto
+2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-IF_DUPLEX: Interface Ethernet1/3, operational duplex mode changed to unknown
+2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-IF_RX_FLOW_CONTROL: Interface Ethernet1/3, operational Receive Flow Control state changed to off
+2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-IF_TX_FLOW_CONTROL: Interface Ethernet1/3, operational Transmit Flow Control state changed to off
+2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-SPEED: Interface Ethernet1/4, operational speed changed to auto
+2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-IF_DUPLEX: Interface Ethernet1/4, operational duplex mode changed to unknown
+2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-IF_RX_FLOW_CONTROL: Interface Ethernet1/4, operational Receive Flow Control state changed to off
+2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-IF_TX_FLOW_CONTROL: Interface Ethernet1/4, operational Transmit Flow Control state changed to off
+2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-SPEED: Interface Ethernet1/11, operational speed changed to auto
+2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-IF_DUPLEX: Interface Ethernet1/11, operational duplex mode changed to unknown
+2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-IF_RX_FLOW_CONTROL: Interface Ethernet1/11, operational Receive Flow Control state changed to off
+2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-IF_TX_FLOW_CONTROL: Interface Ethernet1/11, operational Transmit Flow Control state changed to off
+2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-IF_UP: Interface Ethernet1/3 is up in Layer3
+2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-IF_UP: Interface Ethernet1/4 is up in Layer3
+2023 Mar 14 23:14:57 dist-sw01 %ETHPORT-5-IF_UP: Interface Ethernet1/11 is up in mode access
+2023 Mar 14 23:14:57 dist-sw01 %ETHPORT-5-SPEED: Interface Ethernet1/11, operational speed changed to auto
+2023 Mar 14 23:14:58 dist-sw01 %EEM_ACTION-5-NOTIF: SAW INTERFACE E1/11 GO UP 
+2023 Mar 14 23:14:58 dist-sw01 %ASCII-CFG-2-CONF_CONTROL: System ready
+2023 Mar 14 23:14:59 dist-sw01 %ETH_PORT_CHANNEL-5-PORT_UP: port-channel1: Ethernet1/2 is up
+2023 Mar 14 23:14:59 dist-sw01 %ETH_PORT_CHANNEL-5-PORT_UP: port-channel1: Ethernet1/1 is up
+2023 Mar 14 23:15:00 dist-sw01 %ETH_PORT_CHANNEL-5-FOP_CHANGED: port-channel1: first operational port changed from none to Ethernet1/2
+2023 Mar 14 23:15:00 dist-sw01 %ETHPORT-5-IF_BANDWIDTH_CHANGE: Interface port-channel1,bandwidth changed to 1000000 Kbit
+2023 Mar 14 23:15:00 dist-sw01 %ETHPORT-5-IF_UP: Interface Ethernet1/2 is up in mode trunk
+2023 Mar 14 23:15:00 dist-sw01 %ETHPORT-3-IF_ERROR_VLANS_SUSPENDED: VLANs 1,101-105 on Interface port-channel1 are being suspended. (Reason: vPC peer is not reachable over cfs)
+2023 Mar 14 23:15:00 dist-sw01 %ETHPORT-5-IF_UP: Interface port-channel1 is up in mode trunk
+2023 Mar 14 23:15:00 dist-sw01 %ETHPORT-5-IF_BANDWIDTH_CHANGE: Interface port-channel1,bandwidth changed to 2000000 Kbit
+2023 Mar 14 23:15:00 dist-sw01 %ETHPORT-5-IF_UP: Interface Ethernet1/1 is up in mode trunk
+2023 Mar 14 23:15:02 dist-sw01 %ETH_PORT_CHANNEL-5-PORT_DOWN: port-channel1: Ethernet1/2 is down
+2023 Mar 14 23:15:02 dist-sw01 %ETH_PORT_CHANNEL-5-FOP_CHANGED: port-channel1: first operational port changed from Ethernet1/2 to Ethernet1/1
+2023 Mar 14 23:15:02 dist-sw01 %ETHPORT-5-IF_BANDWIDTH_CHANGE: Interface port-channel1,bandwidth changed to 1000000 Kbit
+2023 Mar 14 23:15:02 dist-sw01 %ETHPORT-5-IF_DOWN_INITIALIZING: Interface Ethernet1/2 is down (Initializing)
