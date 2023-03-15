@@ -1,20 +1,3 @@
-2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-IF_DOWN_ADMIN_DOWN: Interface Ethernet1/9 is down (Administratively down)
-2023 Mar 14 23:14:56 dist-sw01 last message repeated 1 time
-2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-IF_DOWN_ADMIN_DOWN: Interface Ethernet1/10 is down (Administratively down)
-2023 Mar 14 23:14:56 dist-sw01 last message repeated 1 time
-2023 Mar 14 23:14:56 dist-sw01 %MODULE-5-MOD_OK: Module 1 is online (Serial number: 9ORBHMVBPDB)
-2023 Mar 14 23:14:56 dist-sw01 %PLATFORM-5-MOD_STATUS: LC sub Module 1 current-status is MOD_STATUS_ONLINE/OK
-2023 Mar 14 23:14:56 dist-sw01 %ACLQOS-SLOT1-2-ACLQOS_FAILED: ACLQOS failure: TCAM region is not configured for feature QoS class IPv4 direction ingress. Please configure TCAM region Ingress COPP [copp] and retry the command. 
-2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-SPEED: Interface Ethernet1/1, operational speed changed to auto
-2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-IF_DUPLEX: Interface Ethernet1/1, operational duplex mode changed to unknown
-2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-IF_RX_FLOW_CONTROL: Interface Ethernet1/1, operational Receive Flow Control state changed to off
-2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-IF_TX_FLOW_CONTROL: Interface Ethernet1/1, operational Transmit Flow Control state changed to off
-2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-SPEED: Interface Ethernet1/2, operational speed changed to auto
-2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-IF_DUPLEX: Interface Ethernet1/2, operational duplex mode changed to unknown
-2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-IF_RX_FLOW_CONTROL: Interface Ethernet1/2, operational Receive Flow Control state changed to off
-2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-IF_TX_FLOW_CONTROL: Interface Ethernet1/2, operational Transmit Flow Control state changed to off
-2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-SPEED: Interface port-channel1, operational speed changed to 1 Gbps
-2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-IF_DUPLEX: Interface port-channel1, operational duplex mode changed to Full
 2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-IF_RX_FLOW_CONTROL: Interface port-channel1, operational Receive Flow Control state changed to off
 2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-IF_TX_FLOW_CONTROL: Interface port-channel1, operational Transmit Flow Control state changed to off
 2023 Mar 14 23:14:56 dist-sw01 %ETHPORT-5-SPEED: Interface Ethernet1/3, operational speed changed to auto
@@ -48,3 +31,20 @@
 2023 Mar 14 23:15:02 dist-sw01 %ETH_PORT_CHANNEL-5-FOP_CHANGED: port-channel1: first operational port changed from Ethernet1/2 to Ethernet1/1
 2023 Mar 14 23:15:02 dist-sw01 %ETHPORT-5-IF_BANDWIDTH_CHANGE: Interface port-channel1,bandwidth changed to 1000000 Kbit
 2023 Mar 14 23:15:02 dist-sw01 %ETHPORT-5-IF_DOWN_INITIALIZING: Interface Ethernet1/2 is down (Initializing)
+2023 Mar 14 23:15:10 dist-sw01 %ETHPORT-3-IF_ERROR_VLANS_REMOVED: VLANs 1,101-105 on Interface port-channel1 are removed from suspended state.
+2023 Mar 14 23:15:10 dist-sw01 last message repeated 1 time
+2023 Mar 14 23:15:10 dist-sw01 %ETH_PORT_CHANNEL-5-PORT_UP: port-channel1: Ethernet1/2 is up
+2023 Mar 14 23:15:10 dist-sw01 %ETHPORT-5-IF_BANDWIDTH_CHANGE: Interface port-channel1,bandwidth changed to 2000000 Kbit
+2023 Mar 14 23:15:10 dist-sw01 %ETHPORT-5-IF_UP: Interface Ethernet1/2 is up in mode trunk
+2023 Mar 14 23:15:13 dist-sw01 %VMAN-2-ACTIVATION_STATE: Successfully activated virtual service 'guestshell+'  
+2023 Mar 14 23:15:13 dist-sw01 %VMAN-2-GUESTSHELL_ENABLED: The guest shell has been enabled. The command 'guestshell' may be used to access it, 'guestshell destroy' to remove it.
+2023 Mar 14 23:15:15 dist-sw01 %VMAN-5-VIRT_INST_NOTICE: VIRTUAL SERVICE guestshell+ LOG: ^M
+2023 Mar 14 23:15:15 dist-sw01 %VMAN-5-VIRT_INST_NOTICE: VIRTUAL SERVICE guestshell+ LOG: CentOS Linux 7 (Core)
+2023 Mar 14 23:15:15 dist-sw01 %VMAN-5-VIRT_INST_NOTICE: VIRTUAL SERVICE guestshell+ LOG: Kernel 4.1.21-WR8.0.0.25-standard on an x86_64
+2023 Mar 14 23:15:15 dist-sw01 %VMAN-5-VIRT_INST_NOTICE: VIRTUAL SERVICE guestshell+ LOG: 
+2023 Mar 14 23:15:42 dist-sw01 %AUTHPRIV-3-SYSTEM_MSG: pam_aaa:Authentication failed from 192.168.254.11 - login
+2023 Mar 15 00:35:15 dist-sw01 %VSHD-5-VSHD_SYSLOG_CONFIG_I: Configured from vty by cisco on 192.168.254.11@pts/2
+2023 Mar 15 03:17:30 dist-sw01 %ETHPORT-5-IF_DOWN_CFG_CHANGE: Interface Ethernet1/11 is down(Config change)
+2023 Mar 15 03:17:31 dist-sw01 %ETHPORT-5-IF_DOWN_ADMIN_DOWN: Interface Ethernet1/11 is down (Administratively down)
+2023 Mar 15 03:17:31 dist-sw01 last message repeated 1 time
+2023 Mar 15 03:17:31 dist-sw01 %EEM_ACTION-5-NOTIF: SAW INTERFACE E1/11 GO DOWN 
