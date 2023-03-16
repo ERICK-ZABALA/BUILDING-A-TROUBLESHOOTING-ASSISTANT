@@ -165,7 +165,7 @@ dist-sw01(config)# dir
        4096    Nov 22 17:01:45 2021  virt_strg_pool_bf_vdc_1/
        4096    Nov 22 17:00:32 2021  virtual-instance/
          59    Nov 22 17:00:24 2021  virtual-instance.conf
-
+```
 
 # REFERENCES
 + [Switches Nexus Supported](https://developer.cisco.com/site/python/) python onbox.
