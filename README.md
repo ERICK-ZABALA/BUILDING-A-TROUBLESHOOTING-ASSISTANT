@@ -1,5 +1,5 @@
 
-#![image](https://user-images.githubusercontent.com/38144008/225514767-010fa633-9c2e-410a-9734-4fce1372d125.png)
+![image](https://user-images.githubusercontent.com/38144008/225514767-010fa633-9c2e-410a-9734-4fce1372d125.png)
 
 # BUILDING-A-TROUBLESHOOTING-ASSISTANT
 
