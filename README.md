@@ -28,8 +28,8 @@ In this project, we'll be exploring the powerful CLI library in Cisco Switch Nex
 | INSTALL PYTHON AND DEPENDENCIES | Install Python 3.10.2.  | [INSTALL PYTHON AND DEPENDENCIES](https://github.com/ERICK-ZABALA/BUILDING-A-TROUBLESHOOTING-ASSISTANT/blob/main/Readme/INSTALL_PYTHON_AND_DEPENDENCIES.md) | In this first step you install your Python. |
 | INSTALL ANYCONNECT VPN CLIENT | Install VPN Client via CLI  | [INSTALL ANYCONNECT VPN CLIENT](https://github.com/ERICK-ZABALA/BUILDING-A-TROUBLESHOOTING-ASSISTANT/blob/main/Readme/INSTALL%20_VPN_CLIENT_ANYCONNECT.md) | In this second step you are going to install your vpn anyconnect client. |
 | INSTALL GIT | Install GIT via CLI | [INSTALL GIT](https://github.com/ERICK-ZABALA/BUILDING-A-TROUBLESHOOTING-ASSISTANT/blob/main/Readme/INSTALL_GIT.md) | In this step you install git in your environment. |
-| SCRIPT ASSITANT | Script Assistant onbox in Nexus 9000 | [SCRIPT ASSISTANT ONBOX](https://github.com/ERICK-ZABALA/BUILDING-A-TROUBLESHOOTING-ASSISTANT/blob/main/Readme/SCRIPT_ASSISTANT.md) | In this step you are going to create the code to capture information if exist an event. |
-| SCRIPT EXTRACT FILES | Script files using scp in Python | [CREATING A CSV FILE](https://github.com/ERICK-ZABALA/AUTOMATING-A-NETWORK-INVENTORY-WITH-PYTHON/blob/main/CREATING%20A%20CSV%20FILE.md) | In this step you are going to dowload the files captured previously via Python. |
+| SCRIPT ASSISTANT | Script Assistant onbox in Nexus 9000 | [SCRIPT ASSISTANT ONBOX](https://github.com/ERICK-ZABALA/BUILDING-A-TROUBLESHOOTING-ASSISTANT/blob/main/Readme/SCRIPT_ASSISTANT.md) | In this step you are going to create the code to capture information if exist an event. |
+| SCRIPT TO EXTRACT FOLDER | Script files using scp in Python | [EXTRACT NEXUS 9000 FILES](https://github.com/ERICK-ZABALA/AUTOMATING-A-NETWORK-INVENTORY-WITH-PYTHON/blob/main/CREATING%20A%20CSV%20FILE.md) | In this step you are going to dowload the files captured previously via Python. |
 
 # REFERENCES
 
