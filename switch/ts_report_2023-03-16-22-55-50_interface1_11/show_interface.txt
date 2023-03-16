@@ -1,12 +1,12 @@
-Ethernet1/11 is down (Administratively down)
-admin state is down, Dedicated Interface
+Ethernet1/11 is up
+admin state is up, Dedicated Interface
   Hardware: 100/1000/10000 Ethernet, address: 5254.0004.ffd1 (bia 5254.0004.ffd1)
   Description: Link to inside-host01
-  MTU 1500 bytes, BW 10000000 Kbit, DLY 10 usec
+  MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec
   reliability 255/255, txload 1/255, rxload 1/255
   Encapsulation ARPA, medium is broadcast
   Port mode is access
-  auto-duplex, auto-speed
+  full-duplex, 1000 Mb/s
   Beacon is turned off
   Auto-Negotiation is turned on  FEC mode is Auto
   Input flow-control is off, output flow-control is off
@@ -14,9 +14,9 @@ admin state is down, Dedicated Interface
   Switchport monitor is off 
   EtherType is 0x8100 
   EEE (efficient-ethernet) : n/a
-  Last link flapped 00:00:06
+  Last link flapped 00:00:05
   Last clearing of "show interface" counters never
-  1 interface resets
+  5 interface resets
   Load-Interval #1: 30 seconds
     30 seconds input rate 0 bits/sec, 0 packets/sec
     30 seconds output rate 0 bits/sec, 0 packets/sec

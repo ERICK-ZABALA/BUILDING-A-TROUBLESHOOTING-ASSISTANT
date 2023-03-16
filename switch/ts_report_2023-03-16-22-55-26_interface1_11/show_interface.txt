@@ -14,9 +14,9 @@ admin state is down, Dedicated Interface
   Switchport monitor is off 
   EtherType is 0x8100 
   EEE (efficient-ethernet) : n/a
-  Last link flapped 00:00:06
+  Last link flapped 00:00:07
   Last clearing of "show interface" counters never
-  1 interface resets
+  4 interface resets
   Load-Interval #1: 30 seconds
     30 seconds input rate 0 bits/sec, 0 packets/sec
     30 seconds output rate 0 bits/sec, 0 packets/sec

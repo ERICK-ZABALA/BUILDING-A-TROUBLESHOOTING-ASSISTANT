@@ -1,0 +1,50 @@
+2023 Mar 14 23:15:42 dist-sw01 %AUTHPRIV-3-SYSTEM_MSG: pam_aaa:Authentication failed from 192.168.254.11 - login
+2023 Mar 15 00:35:15 dist-sw01 %VSHD-5-VSHD_SYSLOG_CONFIG_I: Configured from vty by cisco on 192.168.254.11@pts/2
+2023 Mar 15 03:17:30 dist-sw01 %ETHPORT-5-IF_DOWN_CFG_CHANGE: Interface Ethernet1/11 is down(Config change)
+2023 Mar 15 03:17:31 dist-sw01 %ETHPORT-5-IF_DOWN_ADMIN_DOWN: Interface Ethernet1/11 is down (Administratively down)
+2023 Mar 15 03:17:31 dist-sw01 last message repeated 1 time
+2023 Mar 15 03:17:31 dist-sw01 %EEM_ACTION-5-NOTIF: SAW INTERFACE E1/11 GO DOWN 
+2023 Mar 15 03:18:01 dist-sw01 last message repeated 2 times
+2023 Mar 15 03:18:01 dist-sw01 %VSHD-5-VSHD_SYSLOG_CONFIG_I: Configured from vty by cisco on 192.168.254.11@pts/2
+2023 Mar 15 03:50:48 dist-sw01 %DAEMON-3-SYSTEM_MSG: error: sftp allowed for user admin only - dcos_sshd[31945]
+2023 Mar 15 03:56:10 dist-sw01 %AUTHPRIV-3-SYSTEM_MSG: pam_aaa:Authentication failed from 192.168.254.11 - login
+2023 Mar 16 22:20:58 dist-sw01 last message repeated 1 time
+2023 Mar 16 22:20:58 dist-sw01 %ETHPORT-5-IF_ADMIN_UP: Interface Ethernet1/11 is admin up .
+2023 Mar 16 22:20:58 dist-sw01 %ETHPORT-5-SPEED: Interface Ethernet1/11, operational speed changed to auto
+2023 Mar 16 22:20:58 dist-sw01 %ETHPORT-5-IF_DUPLEX: Interface Ethernet1/11, operational duplex mode changed to unknown
+2023 Mar 16 22:20:58 dist-sw01 %ETHPORT-5-IF_RX_FLOW_CONTROL: Interface Ethernet1/11, operational Receive Flow Control state changed to off
+2023 Mar 16 22:20:58 dist-sw01 %ETHPORT-5-IF_TX_FLOW_CONTROL: Interface Ethernet1/11, operational Transmit Flow Control state changed to off
+2023 Mar 16 22:20:58 dist-sw01 %ETHPORT-5-IF_UP: Interface Ethernet1/11 is up in mode access
+2023 Mar 16 22:20:59 dist-sw01 %EEM_ACTION-5-NOTIF: SAW INTERFACE E1/11 GO UP 
+2023 Mar 16 22:21:38 dist-sw01 %VSHD-5-VSHD_SYSLOG_CONFIG_I: Configured from vty by cisco on 192.168.254.11@pts/2
+2023 Mar 16 22:28:59 dist-sw01 %ETHPORT-5-IF_DOWN_CFG_CHANGE: Interface Ethernet1/11 is down(Config change)
+2023 Mar 16 22:28:59 dist-sw01 %ETHPORT-5-IF_DOWN_ADMIN_DOWN: Interface Ethernet1/11 is down (Administratively down)
+2023 Mar 16 22:29:00 dist-sw01 last message repeated 1 time
+2023 Mar 16 22:29:00 dist-sw01 %EEM_ACTION-5-NOTIF: SAW INTERFACE E1/11 GO DOWN 
+2023 Mar 16 22:30:04 dist-sw01 last message repeated 2 times
+2023 Mar 16 22:30:04 dist-sw01 %ETHPORT-5-IF_ADMIN_UP: Interface Ethernet1/11 is admin up .
+2023 Mar 16 22:30:04 dist-sw01 %ETHPORT-5-SPEED: Interface Ethernet1/11, operational speed changed to auto
+2023 Mar 16 22:30:04 dist-sw01 %ETHPORT-5-IF_DUPLEX: Interface Ethernet1/11, operational duplex mode changed to unknown
+2023 Mar 16 22:30:04 dist-sw01 %ETHPORT-5-IF_RX_FLOW_CONTROL: Interface Ethernet1/11, operational Receive Flow Control state changed to off
+2023 Mar 16 22:30:04 dist-sw01 %ETHPORT-5-IF_TX_FLOW_CONTROL: Interface Ethernet1/11, operational Transmit Flow Control state changed to off
+2023 Mar 16 22:30:04 dist-sw01 %ETHPORT-5-IF_UP: Interface Ethernet1/11 is up in mode access
+2023 Mar 16 22:30:04 dist-sw01 %EEM_ACTION-5-NOTIF: SAW INTERFACE E1/11 GO UP 
+2023 Mar 16 22:30:33 dist-sw01 %VSHD-5-VSHD_SYSLOG_CONFIG_I: Configured from vty by cisco on 192.168.254.11@pts/2
+2023 Mar 16 22:48:23 dist-sw01 %ETHPORT-5-IF_DOWN_CFG_CHANGE: Interface Ethernet1/11 is down(Config change)
+2023 Mar 16 22:48:24 dist-sw01 %ETHPORT-5-IF_DOWN_ADMIN_DOWN: Interface Ethernet1/11 is down (Administratively down)
+2023 Mar 16 22:48:24 dist-sw01 last message repeated 1 time
+2023 Mar 16 22:48:24 dist-sw01 %EEM_ACTION-5-NOTIF: SAW INTERFACE E1/11 GO DOWN 
+2023 Mar 16 22:48:32 dist-sw01 last message repeated 2 times
+2023 Mar 16 22:48:32 dist-sw01 %ETHPORT-5-IF_ADMIN_UP: Interface Ethernet1/11 is admin up .
+2023 Mar 16 22:48:32 dist-sw01 %ETHPORT-5-SPEED: Interface Ethernet1/11, operational speed changed to auto
+2023 Mar 16 22:48:32 dist-sw01 %ETHPORT-5-IF_DUPLEX: Interface Ethernet1/11, operational duplex mode changed to unknown
+2023 Mar 16 22:48:32 dist-sw01 %ETHPORT-5-IF_RX_FLOW_CONTROL: Interface Ethernet1/11, operational Receive Flow Control state changed to off
+2023 Mar 16 22:48:32 dist-sw01 %ETHPORT-5-IF_TX_FLOW_CONTROL: Interface Ethernet1/11, operational Transmit Flow Control state changed to off
+2023 Mar 16 22:48:32 dist-sw01 %ETHPORT-5-IF_UP: Interface Ethernet1/11 is up in mode access
+2023 Mar 16 22:48:33 dist-sw01 %EEM_ACTION-5-NOTIF: SAW INTERFACE E1/11 GO UP 
+2023 Mar 16 22:49:55 dist-sw01 %VSHD-5-VSHD_SYSLOG_CONFIG_I: Configured from vty by cisco on 192.168.254.11@pts/2
+2023 Mar 16 22:50:55 dist-sw01 %AUTHPRIV-3-SYSTEM_MSG: pam_aaa:Authentication failed from 192.168.254.11 - login
+2023 Mar 16 22:55:16 dist-sw01 %ETHPORT-5-IF_DOWN_CFG_CHANGE: Interface Ethernet1/11 is down(Config change)
+2023 Mar 16 22:55:16 dist-sw01 %ETHPORT-5-IF_DOWN_ADMIN_DOWN: Interface Ethernet1/11 is down (Administratively down)
+2023 Mar 16 22:55:17 dist-sw01 last message repeated 1 time
+2023 Mar 16 22:55:17 dist-sw01 %EEM_ACTION-5-NOTIF: SAW INTERFACE E1/11 GO DOWN 
