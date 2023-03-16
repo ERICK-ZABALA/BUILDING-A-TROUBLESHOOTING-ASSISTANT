@@ -10,18 +10,18 @@ In this project, we'll be exploring the powerful CLI library in Cisco Switch Nex
 + Click to Machine Logo to check the video!!! 
 
 + How can we know the status changed?
-+ Syslog
+  Syslog
 + Where run the command?
-+ onbox Nexus 9000
+  Onbox Nexus 9000
 + How to send the command to nexus 9000?
-+ using Cli library of Python
+  Using Cli library of Python
 + Where we are going to save the information?
-+ Bootflash
+  Bootflash
 + How to xtract the information allocated in the Nexus
-+ SCP
+  Using SCP
 
 
-* Library to interact: Cli, scp, os
+* Library to interact: Cli, scp
 
 |Topics|Description|Title|Notes|
 |---|---|---|---|
