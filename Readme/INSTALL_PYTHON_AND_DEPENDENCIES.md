@@ -1,4 +1,4 @@
-# ![image](https://user-images.githubusercontent.com/38144008/222942819-10c80282-fc4a-435c-bbe0-5924ead5ca52.png)
+![image](https://user-images.githubusercontent.com/38144008/225521047-46cbe5b5-8a35-41fa-bfd3-b0bb31f9045f.png)
 
 # INSTALL PYTHON AND DEPENDENCIES
 
