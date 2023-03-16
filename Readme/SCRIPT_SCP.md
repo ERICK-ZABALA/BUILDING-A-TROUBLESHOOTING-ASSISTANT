@@ -5,6 +5,7 @@ Finally, you can create a script to extract all the file to your system. As exam
 + Requirements: install scp, paramiko
 
 ```python
+#!/home/devnet/Documents/BUILDING-A-TROUBLESHOOTING-ASSISTANT/assistant/bin/python
 """
 This script permit dowload the files from your Nexus9000 via scp use the library paramiko and scp
 Really useful when you whant to integrate to your Jenkis in the future.
