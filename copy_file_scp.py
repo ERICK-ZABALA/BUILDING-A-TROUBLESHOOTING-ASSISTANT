@@ -1,3 +1,15 @@
+#!/home/devnet/Documents/BUILDING-A-TROUBLESHOOTING-ASSISTANT/assistant/bin/python
+"""
+
+Script in Python that permit exctract all files allocated in the Nexus 9000 
+use the library paramiko and scp to comunicate with the NX-9000
+
+Conect via scp to switch Nexus using IP Address and credencials as username and password
+IP: 10.10.20.177'
+username='admin'
+password='Cisco123'
+
+"""
 import os
 import paramiko
 import scp
