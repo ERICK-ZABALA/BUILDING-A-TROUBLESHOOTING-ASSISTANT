@@ -1,8 +1,6 @@
-# TEST
-
 # ASSITANT ONBOX WITH PYTHON
 
-+The first step is running conectivity with your Nexus 9000 and environment development on linux developing this file in python.
++ The first step is running conectivity with your Nexus 9000 and environment development on linux developing this file in python.
 
 ```python
 """
@@ -28,7 +26,7 @@ if __name__ == "__main__":
     # Create a file for each command output
 ```
 
-+Second step is create the vector arguments using `argparse` in your script an test, you can check the code `onbox_assistant_02.py`
++ Second step is create the vector arguments using `argparse` in your script an test, you can check the code `onbox_assistant_02.py`
 
 Output: 
 
@@ -51,7 +49,7 @@ Interface Ethernet 1/11 will be checked.
 
 ```
 
-+Third steps is collect the data retrive via function `def run_command(command, interface)`
++ Third steps is collect the data retrive via function `def run_command(command, interface)`
 
 ```python
 def run_command(command, interface):
@@ -117,6 +115,14 @@ def run_command(command, interface):
     return (output_raw, output_json)
 
 ```
+![image](https://user-images.githubusercontent.com/38144008/225761002-3fcfae29-aed9-4a23-87a1-6e547e8c35b0.png)
+
+![image](https://user-images.githubusercontent.com/38144008/225761097-c9b29640-07aa-43b2-8689-d865123edfcc.png)
+
+![image](https://user-images.githubusercontent.com/38144008/225761127-fe29d3e8-fa24-4844-bf4e-8a8ee81d62a6.png)
+
+![image](https://user-images.githubusercontent.com/38144008/225761214-ee7ef8c4-0c70-4468-a9b4-86545e066b6a.png)
+
 then you can inser all the commands that you are going to use to evaluate your system and finally export in the bootflash all the data creating a folder.
 
 ```python
@@ -145,6 +151,38 @@ then you can inser all the commands that you are going to use to evaluate your s
                 f_json.write(json_output)
                 
 ```
+# Activate Syslog with EEM
+
+Configure this Events and actions in your Nexus 9000
+
+```bash
+
+Monitor for DOWN
+dist-sw01(config)#
+dist-sw01(config)# event manager applet TS_Assitant_Eth1_11_DOWN
+dist-sw01(config-applet)# event syslog pattern "Interface Ethernet1/11 is down"
+Configuration accepted successfully
+dist-sw01(config-applet)# action 1 syslog priority notifications msg SAW INTERFACE E1/11 GO DOWN
+dist-sw01(config-applet)# action 2 cli python bootflash:onbox_assistant.py --interface 1/11
+dist-sw01(config-applet)# exit
+
+Monitor for UP
+dist-sw01(config)# event manager applet TS_Assistant_Eth1_11_UP
+dist-sw01(config-applet)# event syslog pattern "Interface Ethernet1/11 is up"
+Configuration accepted successfully
+dist-sw01(config-applet)# action 1 syslog priority notifications msg SAW INTERFACE E1/11 GO UP
+dist-sw01(config-applet)# action 2 cli python bootflash:onbox_assistant.py --interface 1/11
+dist-sw01(config-applet)# exit
+```
+# Manual Download of Files via SCP
+
+running this command you are going to download all the report.
+
+`devnet@Devnet  ~/Documents/BUILDING-A-TROUBLESHOOTING$ scp -r "admin@10.10.20.177:ts_report*" ./`
+
+![image](https://user-images.githubusercontent.com/38144008/225761865-a901caba-9e99-4294-83a0-018427fbfee4.png)
+
+
 # Download Files via SCP
 
 Finally, you can create a script to extract all the file to your system. As example you can you this one.
@@ -220,3 +258,9 @@ You can see the status of this interface Eth1/11 that change to status Down and 
 ![image](https://user-images.githubusercontent.com/38144008/225758317-6ffd20aa-339b-4be7-8a87-b09692e31438.png)
 
 ![image](https://user-images.githubusercontent.com/38144008/225758975-97bd7117-bbea-47ea-b771-d210fd9a377f.png)
+
+# REFERENCES
++ [Switches Nexus Supported](https://developer.cisco.com/site/python/) python onbox.
++ [Devnet Sandbox](https://devnetsandbox.cisco.com/RM/Diagram/Index/43964e62-a13c-4929-bde7-a2f68ad6b27c?diagramType=Topology) to test your Nexus9000.
++ [JSON](https://jsonlint.com/) to test format.
+
