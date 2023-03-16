@@ -135,7 +135,7 @@ You need to have activated your VPN Client to Sandbox.
 Username: cisco
 Password: cisco
 
-Nexus 9000
+~ Nexus 9000:
 
 dist-sw01(config)# username admin password Cisco123 role network-admin
 dist-sw01(config)# feature sftp-server
