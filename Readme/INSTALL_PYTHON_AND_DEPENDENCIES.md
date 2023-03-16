@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/38144008/225521047-46cbe5b5-8a35-41fa-bfd3-b0bb31f9045f.png)
+#![image](https://user-images.githubusercontent.com/38144008/225521047-46cbe5b5-8a35-41fa-bfd3-b0bb31f9045f.png)
 
 # INSTALL PYTHON AND DEPENDENCIES
 
@@ -6,28 +6,28 @@ To install python in your development environment. you can follow these steps.
 
 + Download Python via console.
 
-`[opc@jenkins-master 00_AUTOMATING_A_NETWORK_INVENTORY_WITH_PYTHON]$ wget https://www.python.org/ftp/python/3.10.2/Python-3.10.2.tgz`
+`[opc@jenkins-master 00_BUILDING-A-TROUBLESHOOTING-ASSISTANT]$ wget https://www.python.org/ftp/python/3.10.2/Python-3.10.2.tgz`
 
 + Extract the downloaded archive by running the following command:
 
-`[opc@jenkins-master 00_AUTOMATING_A_NETWORK_INVENTORY_WITH_PYTHON]$ tar -xvf Python-3.10.2.tgz`
+`[opc@jenkins-master 00_BUILDING-A-TROUBLESHOOTING-ASSISTANT]$ tar -xvf Python-3.10.2.tgz`
 
 Navigate to the extracted directory by running the following command:
 
 ```yaml
-[opc@jenkins-master 00_AUTOMATING_A_NETWORK_INVENTORY_WITH_PYTHON]$ cd Python-3.10.2
+[opc@jenkins-master 00_BUILDING-A-TROUBLESHOOTING-ASSISTANT]$ cd Python-3.10.2
 
-[opc@jenkins-master 00_AUTOMATING_A_NETWORK_INVENTORY_WITH_PYTHON]$ ./configure --enable-optimizations
+[opc@jenkins-master 00_BUILDING-A-TROUBLESHOOTING-ASSISTANT]$ ./configure --enable-optimizations
 ```
 
 Build and install Python 3.10 using the following command:
 
 ```yaml
-[opc@jenkins-master 00_AUTOMATING_A_NETWORK_INVENTORY_WITH_PYTHON]$ make
+[opc@jenkins-master 00_BUILDING-A-TROUBLESHOOTING-ASSISTANT]$ make
 
-[opc@jenkins-master 00_AUTOMATING_A_NETWORK_INVENTORY_WITH_PYTHON]$ sudo make altinstall
+[opc@jenkins-master 00_BUILDING-A-TROUBLESHOOTING-ASSISTANT]$ sudo make altinstall
 
-[opc@jenkins-master 00_AUTOMATING_A_NETWORK_INVENTORY_WITH_PYTHON]$ python3.10.2 --version
+[opc@jenkins-master 00_BUILDING-A-TROUBLESHOOTING-ASSISTANT]$ python3.10.2 --version
 Python 3.10.2
 
 ```
@@ -35,14 +35,14 @@ NOTA: if you have problem in you environment getting an response as "(main) $ py
 Python 3.10.4" you need to apply this command to resolve the problem.
 
 ```yaml
-[opc@jenkins-master 00_AUTOMATING_A_NETWORK_INVENTORY_WITH_PYTHON/Python-3.10.2]$ ls /usr/local/bin/python*
+[opc@jenkins-master 00_BUILDING-A-TROUBLESHOOTING-ASSISTANT/Python-3.10.2]$ ls /usr/local/bin/python*
 /usr/local/bin/python3.10  /usr/local/bin/python3.10-config
-[opc@jenkins-master 00_AUTOMATING_A_NETWORK_INVENTORY_WITH_PYTHON/Python-3.10.2]$ sudo ln -s /usr/local/bin/python3.10 /usr/local/bin/python3.10.2
-[opc@jenkins-master 00_AUTOMATING_A_NETWORK_INVENTORY_WITH_PYTHON/Python-3.10.2]$ python --version
+[opc@jenkins-master 00_BUILDING-A-TROUBLESHOOTING-ASSISTANT/Python-3.10.2]$ sudo ln -s /usr/local/bin/python3.10 /usr/local/bin/python3.10.2
+[opc@jenkins-master 00_BUILDING-A-TROUBLESHOOTING-ASSISTANT/Python-3.10.2]$ python --version
 Python 3.10.4
-[opc@jenkins-master 00_AUTOMATING_A_NETWORK_INVENTORY_WITH_PYTHON/Python-3.10.2]$ python3.10 --version
+[opc@jenkins-master 00_BUILDING-A-TROUBLESHOOTING-ASSISTANT/Python-3.10.2]$ python3.10 --version
 Python 3.10.4
-[opc@jenkins-master 00_AUTOMATING_A_NETWORK_INVENTORY_WITH_PYTHON/Python-3.10.2]$ python3.10.2 --version
+[opc@jenkins-master 00_BUILDING-A-TROUBLESHOOTING-ASSISTANT/Python-3.10.2]$ python3.10.2 --version
 Python 3.10.2
 
 Then you can create your environment normal...
@@ -70,13 +70,13 @@ Package    Version
 pip        21.2.4
 setuptools 58.1.0
 WARNING: You are using pip version 21.2.4; however, version 23.0.1 is available.
-You should consider upgrading via the '/home/opc/DEVNET/00_AUTOMATING_A_NETWORK_INVENTORY_WITH_PYTHON/inventory/bin/python3.10 -m pip install --upgrade pip' command.
+You should consider upgrading via the '/home/opc/DEVNET/00_BUILDING-A-TROUBLESHOOTING-ASSISTANT/inventory/bin/python3.10 -m pip install --upgrade pip' command.
 
-(inventory) [opc@jenkins-master 00_AUTOMATING_A_NETWORK_INVENTORY_WITH_PYTHON]$ pip install --upgrade pip
+(inventory) [opc@jenkins-master 00_BUILDING-A-TROUBLESHOOTING-ASSISTANT]$ pip install --upgrade pip
 
-(inventory) [opc@jenkins-master 00_AUTOMATING_A_NETWORK_INVENTORY_WITH_PYTHON]$ pip install "scp"
-(inventory) [opc@jenkins-master 00_AUTOMATING_A_NETWORK_INVENTORY_WITH_PYTHON]$ pip install paramiko
-(inventory) [opc@jenkins-master 00_AUTOMATING_A_NETWORK_INVENTORY_WITH_PYTHON]$ pip freeze > requirements.txt
+(inventory) [opc@jenkins-master 00_BUILDING-A-TROUBLESHOOTING-ASSISTANT]$ pip install "scp"
+(inventory) [opc@jenkins-master 00_BUILDING-A-TROUBLESHOOTING-ASSISTANT]$ pip install paramiko
+(inventory) [opc@jenkins-master 00_BUILDING-A-TROUBLESHOOTING-ASSISTANT]$ pip freeze > requirements.txt
 ```
 
 # INSTALL TELNET IN LINUX
