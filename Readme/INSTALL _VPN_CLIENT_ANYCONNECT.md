@@ -1,4 +1,4 @@
-# ![image](https://user-images.githubusercontent.com/38144008/222942921-38042aa4-ad58-4865-8930-99c1d20f690f.png)
+# ![image](https://user-images.githubusercontent.com/38144008/225526007-a6ddaba9-2614-4a47-8db3-8d4113761929.png)
 
 # INSTALL VPN CLIENT ANYCONNECT
 
