@@ -1,6 +1,3 @@
-
-# [![image](https://user-images.githubusercontent.com/38144008/222942190-0b3464ca-a7e4-4ade-9a69-a6c674808467.png)](https://www.youtube.com/watch?v=OMyOkqTOWWc)
-
 # [![image](https://user-images.githubusercontent.com/38144008/225514767-010fa633-9c2e-410a-9734-4fce1372d125.png)](https://youtu.be/7oDCBUMqTSY)
 
 # BUILDING-A-TROUBLESHOOTING-ASSISTANT
