@@ -53,18 +53,17 @@ Then you can create your environment normal...
 Note: PyATS just available in environments over Linux.
 
 ```yaml
-[opc@jenkins-master 00_AUTOMATING_A_NETWORK_INVENTORY_WITH_PYTHON]$ python3.10 -m venv inventory
+[opc@jenkins-master 00_BUILDING-A-TROUBLESHOOTING-ASSISTANT]$ python3.10 -m venv assistant
 
-[opc@jenkins-master 00_AUTOMATING_A_NETWORK_INVENTORY_WITH_PYTHON]$ cd inventory
+[opc@jenkins-master 00_BUILDING-A-TROUBLESHOOTING-ASSISTANT]$ source assistant/bin/activate
 
-[opc@jenkins-master 00_AUTOMATING_A_NETWORK_INVENTORY_WITH_PYTHON]$ source inventory/bin/activate
-
-(inventory) [opc@jenkins-master 00_AUTOMATING_A_NETWORK_INVENTORY_WITH_PYTHON]$ python --version
+(assistant) [opc@jenkins-master 00_BUILDING-A-TROUBLESHOOTING-ASSISTANT]$ python --version
 Python 3.10.2
 ```
 In this environment the version of python is `Python 3.10.2` 
 ```python
-(inventory) [opc@jenkins-master 00_AUTOMATING_A_NETWORK_INVENTORY_WITH_PYTHON]$ pip list
+
+(assistant) [opc@jenkins-master 00_BUILDING-A-TROUBLESHOOTING-ASSISTANT]$ pip list
 
 Package    Version
 ---------- -------
@@ -75,8 +74,8 @@ You should consider upgrading via the '/home/opc/DEVNET/00_AUTOMATING_A_NETWORK_
 
 (inventory) [opc@jenkins-master 00_AUTOMATING_A_NETWORK_INVENTORY_WITH_PYTHON]$ pip install --upgrade pip
 
-(inventory) [opc@jenkins-master 00_AUTOMATING_A_NETWORK_INVENTORY_WITH_PYTHON]$ pip install "pyats[full]"
-
+(inventory) [opc@jenkins-master 00_AUTOMATING_A_NETWORK_INVENTORY_WITH_PYTHON]$ pip install "scp"
+(inventory) [opc@jenkins-master 00_AUTOMATING_A_NETWORK_INVENTORY_WITH_PYTHON]$ pip install paramiko
 (inventory) [opc@jenkins-master 00_AUTOMATING_A_NETWORK_INVENTORY_WITH_PYTHON]$ pip freeze > requirements.txt
 ```
 
@@ -127,13 +126,48 @@ Connected to 8.8.8.8.
 Escape character is '^]'.
 ```
 
-# DOWNLOAD THE GUIDE TO MAKE THE INVENTORY FROM GITHUB OF HANK PRESTON
+# Configure Nexus 9000
 
-* Download in your machine [Summer 2021 Devasc-Prep-Network-Inventory-01](https://github.com/hpreston/summer2021-devasc-prep-network-inventory-01.git) maked by Hank Preston, that is a guide if you need help to develop all the code related how to make an inventory.
+You need to have activated your VPN Client to Sandbox.
+
+```bash
+[opc@jenkins-master ~]$ telnet 10.10.20.177
+Username: cisco
+Password: cisco
+
+Nexus 9000
+
+dist-sw01(config)# username admin password Cisco123 role network-admin
+dist-sw01(config)# feature sftp-server
+dist-sw01(config)# feature scp-server
+
+```
+
+# Test to pass a File
+
+From your environment development try to send a file to Nexus 9000.
+
+```bash
+[opc@jenkins-master ~]$ scp test.py admin@10.10.20.177:      
+User Access Verification
+
+(admin@10.10.20.177) Password: Cisco123 
+test.py                                                       100%  814     4.1KB/s   00:00    
+
+dist-sw01(config)# dir
+       4096    Nov 22 16:59:33 2021  .rpmstore/
+       4096    Nov 22 17:00:10 2021  .swtam/
+ 1339749888    Aug 20 16:21:45 2019  nxos.9.2.4.bin
+        814    Mar 13 23:43:28 2023  test.py
+          0    Mar 13 19:20:11 2023  platform-sdk.cmd
+       4096    Nov 22 17:01:04 2021  scripts/
+        221    Nov 22 17:01:47 2021  set_boot.py
+       4096    Nov 22 17:01:45 2021  virt_strg_pool_bf_vdc_1/
+       4096    Nov 22 17:00:32 2021  virtual-instance/
+         59    Nov 22 17:00:24 2021  virtual-instance.conf
+
 
 # REFERENCES
-
-* Download in your machine [Summer 2021 Devasc-Prep-Network-Inventory-01](https://github.com/hpreston/summer2021-devasc-prep-network-inventory-01.git) maked by Hank Preston, that is a guide if you need help to develop all the code related how to make an inventory.
-+ Creation from [Excel File](https://pubhub.devnetcloud.com/media/pyats-getting-started/docs/quickstart/manageconnections.html#creation-from-excel-file)
-+ [Devnet Sandbox](https://devnetsandbox.cisco.com/RM/Diagram/Index/43964e62-a13c-4929-bde7-a2f68ad6b27c?diagramType=Topology) to test owner Inventory
-+ [JSON](https://jsonlint.com/) to test format
++ [Switches Nexus Supported](https://developer.cisco.com/site/python/) python onbox.
++ [Devnet Sandbox](https://devnetsandbox.cisco.com/RM/Diagram/Index/43964e62-a13c-4929-bde7-a2f68ad6b27c?diagramType=Topology) to test your Nexus9000.
++ [JSON](https://jsonlint.com/) to test format.
