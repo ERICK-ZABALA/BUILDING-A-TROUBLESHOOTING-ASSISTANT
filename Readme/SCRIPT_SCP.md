@@ -2,7 +2,7 @@
 
 Finally, you can create a script to extract all the file to your system. As example you can use this one.
 
-+ Requeriments: install scp, paramiko
++ Requirements: install scp, paramiko
 
 ```python
 """
