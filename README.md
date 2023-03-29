@@ -4,6 +4,8 @@
 
 Network Automation is becoming increasingly important for managing and maintaining large-scale networks efficiently. If you're working with Cisco Switch Nexus 9000 NX-OS, you might be familiar with the Embedded Event Manager (EEM) and the importance of capturing logs when specific events occur on your interfaces.
 
+Click on the logo to see the demo!
+
 ![image](https://user-images.githubusercontent.com/38144008/225774372-8e471382-1618-4de3-8496-5065fc0a6dc4.png)
 
 In this project, we'll be exploring the powerful CLI library in Cisco Switch Nexus 9000 NX-OS and leveraging it to build a troubleshooting assistant that can automate the process of capturing logs and storing them in the bootflash. By the end of this project, you'll have a better understanding of how to use EEM, CLI libraries, and automation to streamline your network operations and troubleshoot issues faster. 
