@@ -34,6 +34,10 @@ In this project, we'll be exploring the powerful CLI library in Cisco Switch Nex
 | SCRIPT ASSISTANT | Script Assistant onbox in Nexus 9000 | [SCRIPT ASSISTANT ONBOX](https://github.com/ERICK-ZABALA/BUILDING-A-TROUBLESHOOTING-ASSISTANT/blob/main/Readme/SCRIPT_ASSISTANT.md) | In this step you are going to create the code to capture information if exist an event. |
 | SCRIPT TO EXTRACT FOLDER | Script files using scp in Python | [EXTRACT NEXUS 9000 FILES](https://github.com/ERICK-ZABALA/BUILDING-A-TROUBLESHOOTING-ASSISTANT/blob/main/Readme/SCRIPT_SCP.md) | In this step you are going to dowload the files captured previously via Python. |
 
+# PROOF OF CONCEPT
+
+https://github.com/ERICK-ZABALA/BUILDING-A-TROUBLESHOOTING-ASSISTANT/assets/38144008/33c64402-3f4b-46f8-b2ca-2a93f7e44291
+
 # REFERENCES
 
 + [Devnet Sandbox](https://devnetsandbox.cisco.com/RM/Diagram/Index/43964e62-a13c-4929-bde7-a2f68ad6b27c?diagramType=Topology) to test owner Inventory
